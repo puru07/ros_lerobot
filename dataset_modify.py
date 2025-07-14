@@ -253,7 +253,7 @@ if __name__ == "__main__":
         print("python convert_csv_to_parquet.py --csv_file dataset.csv --image_dir ./images --output_dir ./output --episode_index 1")
         print("\nOr modify the paths below and run directly:")
         
-        # Uncomment and modify these paths for direct execution
+        # edit the paths according to your use
         csv_file = "extracted_data/training_data.csv"
         image_dir = "extracted_data/new_image"
         output_dir = "extracted_data/modified_dataset"
